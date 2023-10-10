@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: aquamarine;
+    padding: 2vh;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header h2{
+    margin: 0;
+    color: black;
+}
+
+.header h{
+    color: black;
+}
+
+.introduktion-container {
+    display: flex;
+    justify-content: center;
+    margin: 15vh;
+}
+
+.introduktion {
+    width: 95vh;
+    background-color: #f0f0f0;
+}
+
+.introduktion p {
+    color: black;
+    margin: 0;
+    padding: 2vh;
+}
