@@ -3,20 +3,21 @@ body {
 }
 
 .header{
+    background-color:rgb(103, 162, 160);
     display: flex;
-    background-color: aquamarine;
     padding: 2vh;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
+}
+
+.nav-links a{
+    margin-right: 5vh;
 }
 
 .header h2{
     margin: 0;
-    color: black;
-}
-
-.header h{
-    color: black;
 }
