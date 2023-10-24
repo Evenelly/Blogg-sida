@@ -3,7 +3,7 @@ body {
 }
 
 .header{
-    background-color:rgb(103, 162, 160);
+    background-color: #e5cebb;
     display: flex;
     padding: 2vh;
     justify-content: space-between;
