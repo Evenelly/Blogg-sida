@@ -35,35 +35,37 @@
         margin: 0;
     }
 
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
 
+    h1{
+        margin: 13vh 20vh 4vh;
+        padding: 2vh;
+        background-color: white;
+    }
 
     .introduktion-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 15vh;
+        margin: 0vh 20vh;
         max-width: 100%;
+        background-color: beige;
+        padding: 5vh;
+        border-radius: 2%;
     }
 
-    .title h1{
-        margin: 2vh;
-        padding: 2vh;
-        color: #d1e6f0;
-        -webkit-text-stroke: black 0.7px;
-        border: solid 2px #e5cebb;
-        border-radius: 3%;
-        background-color: #fff8f3;
-    }
 
     .introduktion {
         max-width: 100%;
-        border-radius: 2%;
-        border: solid 2px #e5cebb;
-        background-color: #fff8f3;
+        border: solid 2px;
+        background-color: white;
     }
 
     .introduktion p {
         color: black;
         margin: 0;
-        padding: 8vh 20vh 8vh 20vh;
+        padding: 5vh 10vh;
     }

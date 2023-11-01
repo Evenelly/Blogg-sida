@@ -22,19 +22,34 @@ body {
     margin: 0;
 }
 
+h1{
+    margin: 20vh 30vh 0vh 30vh;
+}
+
 .inlägg-container{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: beige;
-    justify-content: center;
-    margin: 20vh 30vh 20vh 30vh;
+    margin: 4vh 30vh 20vh 30vh;
     padding: 5vh;
     border-radius: 2%;
+    height: 130vh
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .inlägg{
+    width: 60vh;
     background-color: white;
     margin: 2vh;
-    padding: 10vh 15vh;
-    border: 2px black solid;
+    padding: 2vh;
+    border: 0.3vh black solid;
+}
+
+.inlägg p{
+    flex-grow: 1;
 }
