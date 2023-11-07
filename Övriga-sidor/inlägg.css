@@ -23,18 +23,18 @@ body {
 }
 
 h1{
-    margin: 20vh 30vh 0vh 30vh;
+    margin-top: 20vh;
+    text-align: center;
 }
 
 .inlägg-container{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     background-color: beige;
     margin: 4vh 30vh 20vh 30vh;
     padding: 5vh;
     border-radius: 2%;
-    height: 130vh
+    height: 122vh
 }
 
 a{
@@ -48,8 +48,4 @@ a{
     margin: 2vh;
     padding: 2vh;
     border: 0.3vh black solid;
-}
-
-.inlägg p{
-    flex-grow: 1;
 }

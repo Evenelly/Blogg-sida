@@ -1,4 +1,4 @@
-    body {
+    body{
         margin: 0;
     }
 
@@ -46,26 +46,23 @@
         background-color: white;
     }
 
-    .introduktion-container {
+    .centered-container{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0vh 20vh;
-        max-width: 100%;
+    }
+    .introduktion-container{
+        width: 150vh;
+        margin-bottom: 20vh;
         background-color: beige;
         padding: 5vh;
         border-radius: 2%;
     }
 
-
-    .introduktion {
-        max-width: 100%;
+    .introduktion-container p{
         border: solid 2px;
         background-color: white;
-    }
-
-    .introduktion p {
         color: black;
         margin: 0;
-        padding: 5vh 10vh;
+        padding: 5vh 15vh;
     }

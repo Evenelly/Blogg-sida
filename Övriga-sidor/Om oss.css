@@ -27,9 +27,6 @@ a{
     color: inherit;
 }
 
-
-
-
 .flex-containter{
     margin: 20vh 10vh;
     display: flex;
@@ -37,15 +34,14 @@ a{
     gap: 5vh;
 }
 
-
 .image-container p{
-    margin: 1vh 0vh;
+    margin: 2vh 0vh;
+    width: 20vw;
 }
 
 .image-container img{
     height: 30vw;
 }   
-
 
 .maintext-container{
     background-color: beige;

@@ -24,7 +24,7 @@
             <div class="image-container">
                 <img src="painting.jpeg" alt="The colors light and dark blue, yellow, green, red and purple splashed into a painting">
                 <p>
-                    Beskrivning: Fin
+                    Beskrivning: En målning som har olika färger skvättat/kastats över en tavla :)
                 </p>
             </div>
 
@@ -35,17 +35,28 @@
                     Just nu så har jag några exempel på bloggar som länkar till andra sidor men tanken var att bloggen
                     skrivs på min hemsida och sedan publiceras i en slags feed för läsare att kolla igenom. <br><br>
 
-                    När jag skapade hemsidan så började jag först med att tänka igenom hur designen på hemsidan skulle vara
-                    och hur den skulle hänga ihop mellan alla olika sidor. Jag började sedan på att göra headern då den 
-                    kommer befinna sig på varje sida. Jag använde mig av position: fixed för att få headern fast på toppen samt
-                    space-between för att få ett avstånd mellan nav-links och Blogg. 
+                    När jag skapade hemsidan så började jag först med att tänka igenom hur designen på hemsidan skulle se ut 
+                    och hur den skulle hänga ihop mellan alla olika sidor. Jag började sedan att göra headern då den 
+                    kommer befinna sig på varje sida. Jag använde mig av position: fixed; och top: 0; för att få headern fast på toppen samt
+                    space-between för att få ett avstånd mellan nav-links och "Blogg". På framsidan så använde jag mig av display: flex;, 
+                    align-items: center; och flex-direction: column; för att få titeln samt introduktion i mitten av hemsidan. Framsidan är jag 
+                    inte riktigt nöjd, men jag kan inte sätta fingret på vad jag inte gillar, förmodligen på att den känns lite tråkig. <br><br>
                     
+                    På inläggsidan använde jag mig av flex-direction: column; samt flex-wrap: wrap; för att få alla inlägg till att automatiskt
+                    försöka få plats inom inlägg-container klassen. Sist så gjorde jag bloggsidan vilket jag försökte få relativt lik som inläggsidan, 
+                    fast ändå annorlunda så att man ser att det är en ny sida man är inne på. På denna använde jag mig av justify-content: space-evenly; 
+                    för att få ett jämnt mellanrum mellan kanterna, bilden och texten. <br><br>
+
+                    Vissa problem som jag stötte på skulle kunna inkludera när jag försökte centrera introduktion-container samt titeln av hela hemsidan  
+                    (på framsidan). Det jag gjorde fel var att jag glömde använda en parent div som innehåller all flex. Ett annat problem var när jag ville få inläggen
+                    så att den kom direkt efter varandra med ett och samma avstånd, för att få detta så använde jag mig bara av flex-direction: column; 
+                    vilket gjorde att de satte sig direkt under varandra istället för bredvid.  
                 </p>
                 <p>
                     <strong>CSS Grid</strong> <br><br>
-                    Grid används i CSS som en layoutmodell. Det grid gör är att den skapar en tvådimensionell rutnät 
-                    som kan används för att style äns hemsida. Grid har egenskaper såsom grid-template-columns och 
-                    grid-template-rows för att bestämma strukturen på rutnätet. Man har därefter möjjligheten att 
+                    Grid används i CSS som en layoutmodell. Det grid gör är att den skapar ett tvådimensionell rutnät 
+                    som kan används för att styla ens hemsida. Grid har egenskaper såsom grid-template-columns och 
+                    grid-template-rows för att bestämma strukturen på rutnätet. Man har därefter möjligheten att 
                     använda sig av grid-gap för att kontrollera avståndet mellan alla gridceller. 
                 </p>
                 <p>
