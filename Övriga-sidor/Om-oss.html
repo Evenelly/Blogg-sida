@@ -12,15 +12,14 @@
     <body>
 
         <div class="header">
-            <a href="http://127.0.0.1:5500/index.html"><h2>Blogg</h2></a>
+            <a href="../../index.html"><h2>Blogg</h2></a>
             <div class="nav-links">
-                <a href="http://127.0.0.1:5500/%C3%96vriga-sidor/om-oss.html"><h><b>Om oss</b></h></a>
-                <a href="http://127.0.0.1:5500/%C3%96vriga-sidor/inl%C3%A4gg.html"><h><b>Inlägg</b></h></a>
+                <a href="Om-oss.html"><h><b>Om oss</b></h></a>
+                <a href="Inlägg.html"><h><b>Inlägg</b></h></a>
             </div>
         </div>
 
-
-        <div class="flex-containter">
+        <div class="flex-container"> <!-- div för all flex -->
             <div class="image-container">
                 <img src="painting.jpeg" alt="The colors light and dark blue, yellow, green, red and purple splashed into a painting">
                 <p>
@@ -31,9 +30,10 @@
             <div class="maintext-container">
                 <p>
                     <strong>Syfte/Tankegång</strong> <br><br>
-                    Mitt syfte med bloggen är att ge folk möjligheten att lägga upp blogginlägg när de skulle vilja. 
+                    Mitt syfte med bloggen är att ge folk möjligheten att lägga upp blogginlägg när som helst. 
                     Just nu så har jag några exempel på bloggar som länkar till andra sidor men tanken var att bloggen
-                    skrivs på min hemsida och sedan publiceras i en slags feed för läsare att kolla igenom. <br><br>
+                    skrivs på min hemsida och sedan publiceras i en slags feed för läsare att kolla igenom. Såsom det visas 
+                    på inläggs sidan. <br><br>
 
                     När jag skapade hemsidan så började jag först med att tänka igenom hur designen på hemsidan skulle se ut 
                     och hur den skulle hänga ihop mellan alla olika sidor. Jag började sedan att göra headern då den 
@@ -50,7 +50,9 @@
                     Vissa problem som jag stötte på skulle kunna inkludera när jag försökte centrera introduktion-container samt titeln av hela hemsidan  
                     (på framsidan). Det jag gjorde fel var att jag glömde använda en parent div som innehåller all flex. Ett annat problem var när jag ville få inläggen
                     så att den kom direkt efter varandra med ett och samma avstånd, för att få detta så använde jag mig bara av flex-direction: column; 
-                    vilket gjorde att de satte sig direkt under varandra istället för bredvid.  
+                    vilket gjorde att de satte sig direkt under varandra istället för bredvid. När jag gjorde denna ändringen så offrade jag det responsiva som mina inlägg 
+                    hade. Ifall jag skulle vilja gå till ett mobilformat så skulle inläggen skjutas åt sidan, för att fixa detta skulle jag kunna ta bort flex-direction: column;
+                    men detta skulle resultera i att det ser ut som att inläggen hoppar fram och tillbaka när man är i desktop format.
                 </p>
                 <p>
                     <strong>CSS Grid</strong> <br><br>

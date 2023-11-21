@@ -27,25 +27,37 @@ h1{
     text-align: center;
 }
 
-.inlägg-container{
-    display: flex;
-    flex-flow: column wrap;
-    background-color: beige;
-    margin: 4vh 30vh 20vh 30vh;
-    padding: 5vh;
-    border-radius: 2%;
-    height: 122vh
-}
-
-a{
+a{ 
     text-decoration: none;
     color: inherit;
 }
 
-.inlägg{
+
+
+.flex-container{ /*parent-diven --> för att få inlägg-container i mitten av hemsidan*/
+    display: flex;
+    justify-content: center;
+}
+
+.inlägg-container{ /*Innehåller all flex som gör att inläggen kommer i en column och precis efter varandra*/
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    background-color: beige;
+    padding: 5vh;
+    border-radius: 2%;
+    width: 62vw;
+    height: 122vh;
+    margin-bottom: 40vh;
+}
+
+.inlägg{ 
     width: 60vh;
     background-color: white;
     margin: 2vh;
     padding: 2vh;
     border: 0.3vh black solid;
+    border-radius: 2%;
 }
+
+

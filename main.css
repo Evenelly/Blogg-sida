@@ -2,8 +2,8 @@
         margin: 0;
     }
 
-    .image-container{
-        z-index: -1;
+    .image-container{ /*sätter bilden bakom headern*/
+        z-index: -1; 
         width: 100%;
         height: 30vh;
     }
@@ -15,7 +15,8 @@
         height: 100%;
     }
 
-    .header{
+
+    .header{ /*Innehåller all flex som headerna använder sig av. Denna finns på varje sida av hemsidan. z-index gör så att headern kommer framför bilden*/
         background-color: #e5cebb;
         display: flex;
         padding: 2vh;
@@ -35,24 +36,25 @@
         margin: 0;
     }
 
-    a{
+    a{ /*så att alla länkar går tillbaka till textformat, alltså inte med den blå texten och understrycket, dessa finns på varje csst*/
         text-decoration: none;
         color: inherit;
     }
 
-    h1{
-        margin: 13vh 20vh 4vh;
-        padding: 2vh;
-        background-color: white;
-    }
-
-    .centered-container{
+    .centered-container{ /*centrerar allt main innehåll på hemsidan*/
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+    h1{
+        margin: 9vw 10vw 1vw;
+        padding: 2vw;
+        background-color: white;
+    }
+
     .introduktion-container{
-        width: 150vh;
+        width: 67vw;
         margin-bottom: 20vh;
         background-color: beige;
         padding: 5vh;
@@ -60,9 +62,10 @@
     }
 
     .introduktion-container p{
-        border: solid 2px;
+        border: solid 0.3vh;
+        border-radius: 2%;
         background-color: white;
         color: black;
         margin: 0;
-        padding: 5vh 15vh;
+        padding: 5vh 8vw;
     }

@@ -27,25 +27,29 @@ a{
     color: inherit;
 }
 
-.flex-containter{
-    margin: 20vh 10vh;
+
+
+
+.flex-container{ /*sätter samma avstånd mellan kanten, bilden och texten*/
+    margin-top: 20vh;
     display: flex;
     justify-content: space-evenly;
     gap: 5vh;
 }
 
-.image-container p{
-    margin: 2vh 0vh;
-    width: 20vw;
-}
-
 .image-container img{
     height: 30vw;
-}   
+}  
+
+.image-container p{
+    margin: 2vw 0vw;
+    width: 20vw;
+} 
 
 .maintext-container{
     background-color: beige;
     margin: 0px;
+    margin-bottom: 20vh;
     padding: 5vh;
     border-radius: 2%;
 }
@@ -53,8 +57,39 @@ a{
 .maintext-container p{
     width: 50vw;
     background-color: white;
-    margin: 2vh;
-    padding: 2vh;
+    padding: 1.5vw 4vw;
     border: 0.3vh black solid;
+    border-radius: 2%;
 }
 
+@media (max-width: 850px){
+    .flex-container{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    .image-container{
+        margin: 0px;
+    }
+
+    .image-container p{
+        margin: 0px;
+        z-index: 1; 
+        position: absolute;
+        width: auto;
+        background-color: rgba(255, 255, 255, 0.454);
+        padding: 1vh;
+        border-radius: 2%;
+    }
+
+    .image-container img {
+        margin: 0px;
+        transform: rotate(90deg); 
+        height: 90vw;
+        z-index: -1;
+    }
+
+}
